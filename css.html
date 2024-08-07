@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.movie-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .movie-container-1 {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items:end;
+            flex-wrap: wrap;
+        }
+        .movie-card {
+            border: 1px black solid;
+            height: 620px;
+            width: 280px;
+            background-color: #f2f2f2;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            text-align: center;
+
+        }
+        .movie-card:hover{
+            background-color: #ebebe0;
+        }
+        .star-img {
+            height: 20px;
+            width: 20px;
+        }
+
+       
+
+        .movie-img {
+            width: 260px;
+            height: 300px;
+            border-radius:20px;
+            padding: 5px;
+        }
+#text{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+    </style>
+</head>
+<body>
+    <h1 id="text">Movies</h1>
+    <div class="movie-container">
+        <div class="movie-card">
+            <img src="movie-1.png" class="movie-img">
+            <h1>Adipurush</h1>
+            <h3><img src="star-1.png" class="star-img">&emsp;2.7 &emsp;<img src="star-2.png" class="star-img">&emsp;Rate</h3>
+            <div class="border">
+                <p>
+                <span>Director:</span> Om Raut | Stars: Prabhas, Kriti Sanon, Saif Ali Khan, Devdutta Nage<br>
+                <span>Language :</span> Telugu<br>
+                <span>Worldwide Collection :</span> 397.8cr<br>
+                <span>Verdict :</span> Average
+                </p>
+            </div>
+            <button class="btn">Watch Now!</button>
+        </div>
+    
+</body>
+</html>
