@@ -1,0 +1,32 @@
+h1
+{
+    text-decoration: underline;
+    background-color: aqua;
+    font-family: cursive;
+    border: 0.5px;
+    text-transform: uppercase;
+    text-indent: 35%;
+    letter-spacing:1px;
+    word-spacing: 5px;
+    line-height: 50px;
+}
+a:link{
+    color: #fe1818;
+    text-decoration: solid;
+    border-bottom: 1px solid;
+    font-family: cursive;
+    text-transform: capitalize;
+    letter-spacing:1px;
+    letter-spacing:1px;
+}
+a:visited{
+    color: #ff00ff;
+    text-align: center;
+}
+a:hover{
+    color: #00ff00;
+    border-bottom: none;
+}
+a:active{
+    color: #00ffff;
+}
