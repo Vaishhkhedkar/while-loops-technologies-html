@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #q{
+        background-color: rgb(106, 255, 0);
+        text-align: center;
+        letter-spacing: 4px;
+        text-decoration: underline;
+        }
+        .q{
+            background-color: #fff000;
+        }
+        div[class=v]{
+            color: white;
+           
+        }
+        ol[type=i]
+        {
+            background-color: darkorange ;
+        }
+        h1,h2{
+            font-family: cursive;
+        }
+        ul li{
+            background-color: red;
+            list-style: inside;
+            font-size: large;
+            font-family: inherit;
+           
+        }
+        div > p{
+            font-family: cursive;
+            font-size: x-large;
+            color: blue;
+            background-color: #fff000;
+        }
+        div + ul{
+          text-decoration: underline;
+
+        }
+       .a{
+        background-color: #fff000;
+        color: #ff0000;
+       }
+       div .m ~ p{
+        background-color: rgb(255, 0, 166);
+       }
+       ::first-letter{
+        text-transform: uppercase;
+       }
+       ::first-line{
+        text-transform: uppercase;
+       }
+       ::before{
+        color: black;
+       }
+       ::after{
+        color: pink;
+
+       }
+
+      
+
+    </style>
+</head>
+<body>
+    <h1 id="q">welcome</h1>
+    <h2 class="q">welcome to CSS</h2>
+    <div class="v">
+        <ol type="i">
+            <li>css stands for cascading style sheet</li>
+            <li>There are three types of CSS: external, internal, and inline.</li>
+            <li>External CSS commands are written in a separate file from the main HTML page</li>
+            <li> These are then linked to each web page by a command in the HTML file.</li>
+            <li>The display property is used to specify how an element is shown on a web page.</li>
+        </ol>
+            <p>css stands for cascading style sheet
+            There are three types of CSS: external, internal, and inline.
+            External CSS commands are written in a separate file from the main HTML page
+            These are then linked to each web page by a command in the HTML file.
+            The display property is used to specify how an element is shown on a web page.</p>
+       
+    </div>
+    <ul type="square">
+        <li>css stands for cascading style sheet</li>
+        <li>There are three types of CSS: external, internal, and inline.</li>
+        <li>External CSS commands are written in a separate file from the main HTML page</li>
+        <li> These are then linked to each web page by a command in the HTML file.</li>
+        <li>The display property is used to specify how an element is shown on a web page.</li>
+    </ul>
+    <ol type="a" class="a">
+        <li>css stands for cascading style sheet</li>
+        <li>There are three types of CSS: external, internal, and inline.</li>
+        <li>External CSS commands are written in a separate file from the main HTML page</li>
+        <li> These are then linked to each web page by a command in the HTML file.</li>
+        <li>The display property is used to specify how an element is shown on a web page.</li>
+    </ol>
+    <div>
+    <ol type="A" class="m">
+        <li>css stands for cascading style sheet</li>
+        <li>There are three types of CSS: external, internal, and inline.</li>
+        <li>External CSS commands are written in a separate file from the main HTML page</li>
+        <li> These are then linked to each web page by a command in the HTML file.</li>
+        <li>The display property is used to specify how an element is shown on a web page.</li>
+</ol>
+        <p>css stands for cascading style sheet
+            There are three types of CSS: external, internal, and inline.
+            External CSS commands are written in a separate file from the main HTML page
+            These are then linked to each web page by a command in the HTML file.
+            The display property is used to specify how an element is shown on a web page.</p>
+
+        </div>
+</body>
+</html>

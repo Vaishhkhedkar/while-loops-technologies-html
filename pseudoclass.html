@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.p{
+        color: red;
+        font-family: cursive;
+        font-size: x-large;
+        background-color: rgb(206, 188, 167);
+        
+    }
+    .p:hover{
+        background-color: aqua;
+    }
+   .v{
+    background-color: rgb(17, 255, 0);
+    }
+    table tr:nth-last-child(2) th
+    {
+        background-color: aqua;
+    }
+    .q:first-of-type{
+        background-color: blue;
+    }
+    .q:last-of-type{
+        background-color: chartreuse;
+    }
+    
+    ol :nth-last-child(3){
+        font-family: cursive;
+        background-color: brown;
+    }
+    h3:only-of-type{
+        background-color:crimson;
+    }
+    input:checked{
+        height: 50px;
+        width: 50px;
+    }
+    input:focus{
+        background-color: yellow;
+    }
+    p:target{
+        background-color:tomato;
+        outline-style: solid;
+        outline-width: 8px;
+        outline-color: green;
+    }
+
+    
+
+    </style>
+    
+</head>
+<body>
+    <div>
+        <p class="p">vaishnavi vitthal khedkar </p>
+        <p class="v"> selector is used to apply styles to an element when it is being hovered over by the mouse. It allows you to add interactive effects to elements on your web page.</p>
+        <p></p>
+        <p class="v">When you view this HTML page in a browser, the button will have the default styles defined by the</p>
+    </div>
+    <table border=1px height="90px" width="250px" cellspacing="5px" cellpadding="10px">
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+        </tr>
+
+        <tr>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+        </tr>
+
+        <tr>
+            <th>14</th>
+            <th>15</th>
+            <th>15</th>
+        </tr>
+
+        <tr>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+        </tr>
+
+        <caption>simple table</caption>
+
+    </table>
+    <p class="q">etgvcgfgh bvjivf nkjgvv</p>
+    <p class="q">asdfghjk zxcvbn qwe </p>
+    <p class="q">zxcvbnsdfgh sdfgh poiu mnbv</p>
+    <p class="q">zxcvbn werty asdfg</p>
+    <p class="q">zxcvb sdfgh qwerty poiuytr</p>
+    <p class="q">zxcvb qwe poiuy rty rahul</p>
+    <ul>
+        <li>vaishnavi</li>
+        <ol>
+            <li>parikrama clg</li>
+            <li>sdfgh cvbn yi</li>
+            <li>wertyu cvbn</li>
+            <li>sagthkjk ihgnm</li>
+            <li>vfaytvb mhteds</li>
+        </ol>
+    </ul>
+    <div>
+        <h3>welcome</h3>
+    </div>
+    <div>
+        <h3>welcome</h3>
+        <h3>welcome</h3>
+        <h3>welcome</h3>
+
+    </div>
+
+
+    <form>
+        <fieldset>
+          <legend>student data</legend>
+          <br>
+        <label for="inputFullName">Enter FullName</label>
+        <input type="text" id="inputFullName"/>
+        <br>
+        <br>
+        <label for="inputEmail">Enter Email:</label>
+        <input type="email" id="inputEmail" />
+        <br>
+        <br>
+        <label for="inputPassword">Enter Password:</label>
+        <input type="password" id="inputPassword" />
+        <br>
+        <br>
+        tel:<input type="tel">
+        <br>
+        <br>
+        number:<input type="number" min="10" max="20">
+        <br>
+        <br>
+        search:<input type="search">
+        <br>
+        <br>
+        URL:<input type="url">
+        <br><br>
+        range:<input type="range">
+        <br><br>
+        color:<input type="color">
+        <br><br>
+        month:<input type="month">
+        <br><br>
+        date:<input type="date">
+        <br><br>
+        datetime:<input type="datetime">
+        <br><br>
+        week:<input type="week">
+        <br><br>
+        gender:
+        <input type="radio" name="r1">Female
+        <input type="radio" name="r1">male
+        <br><br>
+        section:<select name="s1">
+          <option value="HTML">HTML</option>
+          <option value="JS">JS</option>
+          <option value="CSS">CSS</option>
+          <option value="PYTHON">PYTHON</option>
+          <option value="C++">C++</option>
+        </select>
+        <br><br>
+        <input type="checkbox" value="ch1">HTML
+        <br><br>
+        <input type="checkbox" value="ch2">JS
+        <br><br>
+        <input type="checkbox" value="ch3">CSS
+        <br><br>
+        <input type="checkbox" value="ch4">PYTHON
+        <br><br>
+    
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+          
+              <textarea va1ue="f1" form="f1"></textarea>
+              <br>
+              <textarea dirname="form.dir"></textarea>
+              <br>
+              <button type="button">ok</button>
+              <br>
+              
+          </fieldset>
+          <p><a href="#news1">jump to new content</a></p>
+          <p><a href="#news2">jump to new content</a></p>
+          <p>click the link</p>
+          <p id="news1"><b>new content 1...</b></p>
+          <p id="news2"><b>new content 2...</b></p>
+    
+      </form>
+    
+</body>
+</html>
