@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+    }
+
+        .calculator-design{
+        height: 550px;
+        width: 560px;
+        background-color: #001a33;
+        margin: 20px auto;
+        border-radius: 10px ;
+        border-style:ridge;
+        border-width: 10px;
+        border-color:  #003366 0%, #ccffff 100%; 
+        padding: 20px;
+           
+
+       }
+       .inputbox{
+        width: 450px;
+        background-color: #a1af77;
+        text-align: right;
+        display: block;
+        margin: 0 auto;
+        height: 56px;
+        font-size: 50px;
+        margin-top: 18px;
+        font-family:"DS-Digital Normal";
+       }
+       .box{
+        height:75px;
+        width:170px;
+        background-color: #999999;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 390px;
+         }
+        
+       
+
+
+       .boxbtn{
+        height: 40px;
+        width:70px ;
+        background: linear-gradient(to bottom, #003366 33%, #336699 78%);
+        -webkit-text-fill-color: white;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 5px;
+       }
+
+       .topbtn1{
+        height: 40px;
+        width:70px ;
+        background: linear-gradient(to bottom, #003366 33%, #336699 78%);
+        -webkit-text-fill-color: white;
+        margin: 5px;
+        display: inline-flex;
+        margin-top: 25px;
+        border-radius: 5px;
+    
+       }
+       .box-container{
+        height:75px;
+        width:170px;
+        background-color: #999999;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 200px;
+        position: absolute;
+        
+
+
+
+       }
+       .container{
+        display: inline-flex;
+         }
+         .button-container{
+            height: 255px;
+            width:558px;
+            background-color:#999999 ;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+         }
+         .btn{
+        height: 40px;
+        width:70px ;
+        background: linear-gradient(to bottom, #003366 33%, #336699 78%);
+        -webkit-text-fill-color: white;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 5px;
+    
+
+         }
+         .btnplus {
+            height: 89px;
+        width:70px ;
+        background: linear-gradient(to bottom, #003366 33%, #336699 78%);
+        -webkit-text-fill-color: white;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 5px;
+         }
+         .img{
+            margin-left: 120px;
+            margin-top: 10px;
+            
+         }
+         .text{
+            color: grey;
+            font-family: sans-serif;
+            margin-left: 80px;
+            margin-top: 20px;
+
+            
+         }
+         .con{
+            display:inline-flex
+         }
+         .color{
+            height: 30px;
+            width: 120px;
+            background-color: #261a0d;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            border-style: ridge;
+            border-width: 5px;
+         }
+         .btnc{
+        height: 40px;
+        width:70px ;
+        background-color: #001a33;
+        -webkit-text-fill-color: white;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 5px;
+         }
+         .btnac{
+        height: 40px;
+        width:70px ;
+        background-color: #001a33;
+        -webkit-text-fill-color: white;
+        flex-direction: row;
+        margin: 5px;
+        border-radius: 5px;
+         }
+      
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="calculator-design">
+        <div class="con">
+        <img  class="img" src="https://1000logos.net/wp-content/uploads/2017/12/Casio-Logo.png" height="50px"><p class="color"></p><span class="text">MJ-12D </span>
+        </div>
+        <input type="text" value="0" class="inputbox"/>
+    
+        
+        <div class="container">
+        <div class="box">
+             150 STEPS CHECK
+             <button class="boxbtn">▲</button>
+             <button class="boxbtn">▼</button>
+        </div>
+       <div class="box-container">
+        <button class="topbtn1">AUTO REVIEW</button>
+        <button class="topbtn1" >CORRECT</button>
+    </div>
+</div>
+
+      <div class="button-container">
+      <button class="btn">disp</button>
+      <button class="btn">7</button>
+      <button class="btn">4</button>
+      <button class="btn">1</button>
+      <button class="btn">0</button>
+
+      <button class="btn">►</button>
+      <button class="btn">8</button>
+      <button class="btn">5</button>
+      <button class="btn">2</button>
+      <button class="btn">00</button>
+
+      <button class="btn">±</button>
+      <button class="btn">9</button>
+      <button class="btn">6</button>
+      <button class="btn">3</button>
+      <button class="btn">.</button>
+
+      <button class="btn">√</button>
+      <button class="btn">%</button>
+      <button class="btn">⨯</button>
+      <button class="btnplus">+</button>
+
+      <button class="btn">MU</button>
+      <button class="btnc">C</button>
+      <button class="btn">÷</button>
+      <button class="btn">-</button>
+      <button class="btn">=</button>
+
+      <button class="btn">GT</button>
+      <button class="btnac">AC</button>
+      <button class="btn">MRC</button>
+      <button class="btn">M-</Main></button>
+      <button class="btn">M+</button>
+
+
+
+
+
+
+
+    </div>
+       
+    </div>
+    
+      
+</body>
+</html>
